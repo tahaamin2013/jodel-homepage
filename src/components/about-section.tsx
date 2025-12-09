@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export default function AboutSection() {
   return (
     <section className="py-20 px-8 bg-black">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-12 items-center">
+      <div className="max-w-4xl mx-auto  grid grid-cols-2 gap-12 items-center">
         <motion.div
           className="relative"
           initial={{ opacity: 0, x: -50 }}
@@ -14,13 +14,13 @@ export default function AboutSection() {
           viewport={{ once: true }}
         >
           <motion.div
-            className="border-4 border-green-500 rounded p-4 relative"
+            className="border-4 border-green-500 flex items-center justify-center rounded py-7 w-[340px] relative"
             whileHover={{ borderColor: "#00ff41" }}
           >
             <motion.img
-              src="/people-enjoying-shisha-lounge.jpg"
+              src="/1.png"
               alt="People enjoying shisha"
-              className="w-full rounded"
+              className=" max-w-md rounded"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             />

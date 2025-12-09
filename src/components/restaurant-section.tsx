@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export default function RestaurantSection() {
   return (
     <section className="py-20 px-8 bg-black">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-12 items-center">
+      <div className="max-w-4xl mx-auto  grid grid-cols-2 gap-12 items-center">
         <motion.div
           className="space-y-6"
           initial={{ opacity: 0, x: -50 }}
@@ -55,16 +55,16 @@ export default function RestaurantSection() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <motion.div
-            className="border-2 border-green-500 rounded p-4 relative"
-            whileHover={{ boxShadow: "0 0 40px rgba(0, 255, 65, 0.3)" }}
+        <motion.div
+            className="border-4 border-green-500 flex items-center justify-center rounded py-7 w-[340px] relative"
+            whileHover={{ borderColor: "#00ff41" }}
           >
             <motion.img
-              src="/restaurant-dining-table-drinks.jpg"
-              alt="Restaurant"
-              className="w-full rounded"
-              whileHover={{ scale: 1.08 }}
-              transition={{ duration: 0.4 }}
+              src="/2.png"
+              alt="People enjoying shisha"
+              className=" max-w-md rounded"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
             />
             {/* Corner accents */}
             <motion.div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-green-500" />

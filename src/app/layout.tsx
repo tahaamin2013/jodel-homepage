@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body 
       style={{ fontFamily: "Bauhaus" }}
-       className={`font-sans scroll-smooth  antialiased bg-black text-white`}>
+       className={`font-sans overflow-x-hidden scroll-smooth  antialiased bg-black text-white`}>
         {children}
       </body>
     </html>

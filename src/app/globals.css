@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: 'Bauhaus';
+  src: url('/Bauhaus Bugler W00 Medium.ttf') format('woff2'),
+       url('/Bauhaus Bugler W00 Medium.ttf') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bauhaus';
+  src: url('/Bauhaus Bugler W00 Medium.ttf') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+.font-corinthia {
+  font-family: "Corinthia", cursive;
+}

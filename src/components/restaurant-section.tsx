@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export default function RestaurantSection() {
   return (
     <section className="py-20 px-8 bg-black">
-      <div className="max-w-4xl mx-auto  grid grid-cols-2 gap-12 items-center">
+      <div className="max-w-4xl mx-auto  grid grid-cols-2 gap-20 items-center">
         <motion.div
           className="space-y-6"
           initial={{ opacity: 0, x: -50 }}
@@ -16,7 +16,7 @@ export default function RestaurantSection() {
           {/* Left Content */}
           <div className="space-y-2">
             <motion.p
-              className="text-green-500 font-italic text-lg"
+              className="text-[#7CCF00] font-italic text-lg"
               animate={{ opacity: [0.6, 1, 0.6] }}
               transition={{ duration: 2.5, repeat: Number.POSITIVE_INFINITY }}
             >
@@ -34,17 +34,17 @@ export default function RestaurantSection() {
           </p>
 
           <motion.button
-            className="border-2 border-green-500 text-green-500 px-8 py-3 relative overflow-hidden group"
+            className="border-2 border-[#7CCF00] text-[#7CCF00] px-8 py-3 relative overflow-hidden group"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <motion.div
-              className="absolute inset-0 bg-green-500 -z-10"
+              className="absolute inset-0 bg-[#7CCF00] -z-10"
               initial={{ x: "-100%" }}
               whileHover={{ x: "100%" }}
               transition={{ duration: 0.3 }}
             />
-            <span className="relative z-10 group-hover:text-black transition">View menu</span>
+            <span className="relative z-10  transition">View menu</span>
           </motion.button>
         </motion.div>
 
@@ -56,7 +56,7 @@ export default function RestaurantSection() {
           viewport={{ once: true }}
         >
         <motion.div
-            className="border-4 border-green-500 flex items-center justify-center rounded py-7 w-[340px] relative"
+            className="border-4 border-[#7CCF00] flex items-center justify-center rounded py-7 w-[340px] relative"
             whileHover={{ borderColor: "#00ff41" }}
           >
             <motion.img
@@ -67,10 +67,10 @@ export default function RestaurantSection() {
               transition={{ duration: 0.3 }}
             />
             {/* Corner accents */}
-            <motion.div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-green-500" />
-            <motion.div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-green-500" />
-            <motion.div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-green-500" />
-            <motion.div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-green-500" />
+            <motion.div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#7CCF00]" />
+            <motion.div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-[#7CCF00]" />
+            <motion.div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-[#7CCF00]" />
+            <motion.div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#7CCF00]" />
           </motion.div>
         </motion.div>
       </div>

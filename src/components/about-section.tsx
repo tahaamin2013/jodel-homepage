@@ -14,7 +14,7 @@ export default function AboutSection() {
           viewport={{ once: true }}
         >
           <motion.div
-            className="border-4 border-green-500 flex items-center justify-center rounded py-7 w-[340px] relative"
+            className="border-4 border-[#7CCF00] flex items-center justify-center rounded py-7 w-[340px] relative"
             whileHover={{ borderColor: "#00ff41" }}
           >
             <motion.img
@@ -25,12 +25,12 @@ export default function AboutSection() {
               transition={{ duration: 0.3 }}
             />
             <motion.div
-              className="absolute -top-2 -left-2 w-6 h-6 border-t-2 border-l-2 border-green-500"
+              className="absolute -top-2 -left-2 w-6 h-6 border-t-2 border-l-2 border-[#7CCF00]"
               animate={{ opacity: [0.5, 1, 0.5] }}
               transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
             />
             <motion.div
-              className="absolute -bottom-2 -right-2 w-6 h-6 border-b-2 border-r-2 border-green-500"
+              className="absolute -bottom-2 -right-2 w-6 h-6 border-b-2 border-r-2 border-[#7CCF00]"
               animate={{ opacity: [0.5, 1, 0.5] }}
               transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
             />
@@ -46,7 +46,7 @@ export default function AboutSection() {
         >
           <div className="space-y-2">
             <motion.p
-              className="text-green-500 font-italic text-lg"
+              className="text-[#7CCF00] font-italic text-lg"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
@@ -63,17 +63,18 @@ export default function AboutSection() {
           </p>
 
           <motion.button
-            className="border-2 border-green-500 text-green-500 px-8 py-3 relative overflow-hidden group"
+            className="border-2 border-[#7CCF00] text-[#7CCF00] px-8 py-3 relative overflow-hidden group"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <motion.div
-              className="absolute inset-0 bg-green-500 -z-10"
+              className="absolute inset-0 bg-[#7CCF00] -z-10"
               initial={{ x: "-100%" }}
               whileHover={{ x: "100%" }}
               transition={{ duration: 0.3 }}
             />
-            <span className="relative z-10 group-hover:text-black transition">Book now</span>
+                 <span className="relative z-10  transition">Book now</span>
+
           </motion.button>
         </motion.div>
       </div>

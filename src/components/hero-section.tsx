@@ -2,7 +2,7 @@ export default function HeroSection() {
 
   return (
     <section
-      className="min-h-screen bg-[#09090B] pt-20 relative overflow-hidden"
+      className="min-h-screen bg-black pt-20 relative overflow-hidden"
       style={{
         backgroundImage: 'url("/847wefewtyg4.png")',
         backgroundPosition: "bottom right",
@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-8 items-center w-full">
           {/* Left Content */}
           <div className="text-white animate-fade-in">
-<p className="text-2xl text-[#01F150] italic mb-4 font-serif tracking-wider">
+<p className="text-2xl text-[#7CCF00] italic mb-4 font-serif tracking-wider">
   Shisha Bar
 </p>
             <h2 className="text-5xl md:text-7xl font-bold mb-6 text-white leading-tight">
@@ -27,7 +27,7 @@ export default function HeroSection() {
               fusion of cultures!
             </p>
             <div className="flex flex-col sm:flex-row gap-8 items-start mb-8">
-              <button className="border-2 border-[#01F150] text-[#01F150] px-12 py-3 rounded hover:bg-[#01F150] hover:text-black transition font-semibold font-work-sans">
+              <button className="border-2 border-[#7CCF00] text-[#7CCF00] px-12 py-3 rounded hover:bg-[#7CCF00] hover:text-black transition font-semibold font-work-sans">
                 Explore now
               </button>
             </div>

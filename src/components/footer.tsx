@@ -28,7 +28,7 @@ export default function Footer() {
         >
           <div className="space-y-2 mb-6">
             <motion.p
-              className="text-green-500 font-italic text-lg"
+              className="text-[#7CCF00] font-italic text-lg"
               animate={{ letterSpacing: ["0px", "2px", "0px"] }}
               transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
             >
@@ -38,17 +38,18 @@ export default function Footer() {
           </div>
           <p className="text-gray-400 mb-6">Your exquisite dining experience is just a reservation away.</p>
           <motion.button
-            className="border-2 border-green-500 text-green-500 px-8 py-3 relative overflow-hidden group"
+            className="border-2 border-[#7CCF00] text-[#7CCF00] px-8 py-3 relative overflow-hidden group"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <motion.div
-              className="absolute inset-0 bg-green-500 -z-10"
+              className="absolute inset-0 bg-[#7CCF00] -z-10"
               initial={{ x: "-100%" }}
               whileHover={{ x: "100%" }}
               transition={{ duration: 0.3 }}
             />
-            <span className="relative z-10 group-hover:text-black transition">Book now</span>
+            <span className="relative z-10  transition">            <span className="relative z-10  transition">Book now</span>
+</span>
           </motion.button>
         </motion.div>
 
@@ -60,19 +61,19 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <motion.div className="space-y-3 group" variants={itemVariants}>
-            <h4 className="text-xl font-bold text-white group-hover:text-green-500 transition">Company</h4>
+            <h4 className="text-xl font-bold text-white group-hover:text-[#7CCF00] transition">Company</h4>
             <p className="text-gray-400 text-sm group-hover:text-gray-300 transition">
               Get your business to the new heights.
             </p>
           </motion.div>
 
           <motion.div className="space-y-3 group" variants={itemVariants}>
-            <h4 className="text-xl font-bold text-white group-hover:text-green-500 transition">sales@example.com</h4>
+            <h4 className="text-xl font-bold text-white group-hover:text-[#7CCF00] transition">sales@example.com</h4>
             <p className="text-gray-400 text-sm group-hover:text-gray-300 transition">MON-FRI 9AM-6PM</p>
           </motion.div>
 
           <motion.div className="space-y-3 group" variants={itemVariants}>
-            <h4 className="text-xl font-bold text-white group-hover:text-green-500 transition">(234) 567.890.11</h4>
+            <h4 className="text-xl font-bold text-white group-hover:text-[#7CCF00] transition">(234) 567.890.11</h4>
             <p className="text-gray-400 text-sm group-hover:text-gray-300 transition">WhatsApp or Call</p>
           </motion.div>
         </motion.div>

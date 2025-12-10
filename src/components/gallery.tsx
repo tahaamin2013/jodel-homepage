@@ -5,32 +5,32 @@ export default function Gallery() {
     {
       id: 1,
       title: "Entertainment",
-      image: "/woman with microphone singing",
+      image: "/gallery1.png",
     },
     {
       id: 2,
       title: "Gourmet Food",
-      image: "/delicious burger food",
+      image: "/gallery2.png",
     },
     {
       id: 3,
-      title: "Ambiance",
-      image: "/red neon lights",
+      title: "Hooka",
+      image: "/gallery6.avif",
     },
     {
       id: 4,
-      title: "Asian Cuisine",
-      image: "/asian salad bowl",
+      title: "Fresh Drinks",
+      image: "/gallery3.png",
     },
     {
       id: 5,
-      title: "Fresh Drinks",
-      image: "/orange juice drink",
+      title: "Asian Cuisine",
+      image: "/gallery4.png",
     },
     {
       id: 6,
       title: "Party Vibes",
-      image: "/orange neon party lights",
+      image: "/gallery5.png",
     },
   ]
 

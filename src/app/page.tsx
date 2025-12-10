@@ -39,9 +39,10 @@ export default function Home() {
       <HeroSection />
         <LargeTestimonial />
       <AboutSection />
-        <Testimonials />
+      
       <RestaurantSection />
-         <section className="py-16">
+        <Gallery />
+  <section className="py-16">
         <div className="text-center mb-16">
           <h3 className="text-lime-500 font-script text-xl mb-4">Our Flavors</h3>
           <h2 className="text-white text-4xl font-bold">Premium Shisha Blends</h2>
@@ -54,9 +55,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-            <section className="py-20">
-        <Gallery />
-      </section>
+        <Testimonials />
+       
       <Footer />
   
                                          
